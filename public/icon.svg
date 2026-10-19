@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc2626" />
+      <stop offset="100%" stop-color="#991b1b" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#grad)" />
+  <!-- Newspaper Page Layer 1 -->
+  <rect x="96" y="106" width="320" height="300" rx="20" fill="#ffffff" opacity="0.95" filter="url(#shadow)" />
+  <!-- Header line -->
+  <rect x="136" y="146" width="160" height="20" rx="4" fill="#dc2626" />
+  <circle cx="346" cy="156" r="12" fill="#ef4444" />
+  <!-- Headline bar -->
+  <rect x="136" y="186" width="240" height="14" rx="4" fill="#1e293b" />
+  <!-- Subheadline -->
+  <rect x="136" y="212" width="180" height="10" rx="3" fill="#64748b" />
+  <!-- Image box representation -->
+  <rect x="136" y="240" width="110" height="80" rx="6" fill="#e2e8f0" />
+  <path d="M 148 295 L 175 265 L 200 290 L 220 275 L 234 295 Z" fill="#94a3b8" />
+  <circle cx="160" cy="260" r="8" fill="#cbd5e1" />
+  <!-- Article lines -->
+  <rect x="260" y="242" width="116" height="8" rx="2" fill="#475569" />
+  <rect x="260" y="258" width="116" height="8" rx="2" fill="#94a3b8" />
+  <rect x="260" y="274" width="100" height="8" rx="2" fill="#94a3b8" />
+  <rect x="260" y="290" width="110" height="8" rx="2" fill="#94a3b8" />
+  <rect x="260" y="306" width="85" height="8" rx="2" fill="#cbd5e1" />
+  <!-- Bottom columns -->
+  <rect x="136" y="338" width="110" height="8" rx="2" fill="#94a3b8" />
+  <rect x="136" y="354" width="95" height="8" rx="2" fill="#cbd5e1" />
+  <rect x="136" y="370" width="105" height="8" rx="2" fill="#cbd5e1" />
+  <rect x="260" y="338" width="116" height="8" rx="2" fill="#94a3b8" />
+  <rect x="260" y="354" width="116" height="8" rx="2" fill="#cbd5e1" />
+  <rect x="260" y="370" width="80" height="8" rx="2" fill="#cbd5e1" />
+</svg>

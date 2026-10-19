@@ -1,0 +1,6 @@
+{
+  "name": "Indore & Beyond - Daily News Reader",
+  "description": "Modern, bilingual daily news reader featuring Indore local news, national, world, and tech stories in Hindi and English with distraction-free reading mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
